@@ -42,7 +42,7 @@ final class APICaller {
     }
 }
 
-//Models
+//Models(レスポンスしたデータをデコードするためのArticle)
 struct APIResponse: Codable {
     let articles: [Article]
 }
